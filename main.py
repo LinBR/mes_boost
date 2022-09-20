@@ -284,7 +284,7 @@ class Work:
                     Menu().mode_selection()
                 else:
                     print(f'Беседа №{num + 1} создана!\nЕе айди: {chat_id}\n')
-                    for second in range(1):
+                    for second in range(30):
                         print(f'Прошло секунд {second + 1}... Осталось {30 - second - 1}с ', end='\r')
                         time.sleep(1)
                     print('\n')
